@@ -436,18 +436,18 @@
     </style>
 </head>
 
-<body>
+<body id="top">
 
     <!-- Header -->
     <header class="header">
         <div class="container nav-flex">
-            <a href="#" class="logo">SMASH.</a>
+            <a href="#top" class="logo" aria-label="SMASH — на главную">SMASH.</a>
             <nav class="nav-links">
-                <a href="#about" class="nav-link">Академия</a>
                 <a href="#trainers" class="nav-link">Команда</a>
                 <a href="#prices" class="nav-link">Цены</a>
+                <a href="tel:+998900000000" class="nav-link">+998 90 000 00 00</a>
             </nav>
-            <a href="#cta" class="btn btn-primary">Записаться</a>
+            <a href="#prices" class="btn btn-primary">Записаться</a>
         </div>
     </header>
 
@@ -468,8 +468,8 @@
                     Профессиональная подготовка, современные корты и методики ATP.
                 </p>
                 <div class="hero-btns" style="opacity: 0;">
-                    <a href="#cta" class="btn btn-primary">Бесплатный урок</a>
-                    <a href="#" class="btn btn-outline" style="margin-left: 15px;">О клубе</a>
+                    <a href="#prices" class="btn btn-primary">Бесплатный урок</a>
+                    <a href="#trainers" class="btn btn-outline" style="margin-left: 15px;">О клубе</a>
                 </div>
             </div>
 
@@ -612,23 +612,24 @@
         <div class="container">
             <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 50px;">
                 <div style="flex: 1;">
-                    <a href="#" class="logo" style="margin-bottom: 20px; display: block;">SMASH.</a>
+                    <a href="#top" class="logo" style="margin-bottom: 20px; display: block;"
+                        aria-label="SMASH — на главную">SMASH.</a>
                     <p style="color: #777; max-width: 300px;">Технологичная академия тенниса в центре города.</p>
                 </div>
                 <div>
                     <h4 style="color: white; margin-bottom: 20px;">Меню</h4>
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Программы</a></li>
+                        <li><a href="#top">Главная</a></li>
+                        <li><a href="#trainers">О нас</a></li>
+                        <li><a href="#prices">Программы</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 style="color: white; margin-bottom: 20px;">Контакты</h4>
                     <ul>
-                        <li><a href="#">+998 90 000 00 00</a></li>
-                        <li><a href="#">Telegram Bot</a></li>
-                        <li><a href="#">Instagram</a></li>
+                        <li><a href="tel:+998900000000">+998 90 000 00 00</a></li>
+                        <li><a href="https://t.me/smash_tennis_academy" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+                        <li><a href="https://instagram.com/smash_tennis_academy" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
             </div>
@@ -775,4 +776,4 @@
     </script>
 </body>
 
-</html>
+</html>
